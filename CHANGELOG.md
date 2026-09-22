@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.0](https://github.com/codectl/tmuxer.nvim/compare/v1.11.1...v1.12.0) (2026-09-22)
+
+
+### Features
+
+* change called workflow reference and updated docs ([#35](https://github.com/codectl/tmuxer.nvim/issues/35)) ([2c9aca8](https://github.com/codectl/tmuxer.nvim/commit/2c9aca89e480a72c4f34e88a596c67cf1290a50c))
+
 ## [1.11.1](https://github.com/dkooll/tmuxer.nvim/compare/v1.11.0...v1.11.1) (2026-07-29)
 
 
