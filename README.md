@@ -186,8 +186,4 @@ If you want to use different neovim configurations or versions, you can override
 
 ## Contributors
 
-We welcome contributions from the community! Whether it's reporting a bug, suggesting a new feature, or submitting a pull request, your input is highly valued. <br><br>
-
-<a href="https://github.com/dkooll/tmuxer.nvim/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=dkooll/tmuxer.nvim" />
-</a>
+We welcome contributions from the community! Whether it's reporting a bug, suggesting a new feature, or submitting a pull request, your input is highly valued.

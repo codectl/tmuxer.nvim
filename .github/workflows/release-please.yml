@@ -1,19 +1,15 @@
-name: Release
+name: release
+
 on:
   push:
     branches: [main]
 
 permissions:
-  contents: write
-  pull-requests: write
+  contents: read
 
 jobs:
   release:
-    runs-on: ubuntu-latest
+    uses: codectl/flume/.github/workflows/release-please.yml@main
     permissions:
       contents: write
       pull-requests: write
-    steps:
-      - uses: googleapis/release-please-action@v4
-        with:
-          release-type: go
