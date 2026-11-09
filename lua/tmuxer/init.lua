@@ -138,8 +138,8 @@ local function build_git_cmd(workspace_path, include_archive)
 
   if has_fd then
     return include_archive
-        and string.format("fd -H -t d '^.git$' -d %d . %s -x echo {//}", archive_depth, escaped)
-        or string.format("fd -H -t d '^.git$' -d %d --exclude archive . %s -x echo {//}", depth, escaped)
+        and string.format("fd -H -t d '^.git$' -d %d -x echo {//} ';' %s", archive_depth, escaped)
+        or string.format("fd -H -t d '^.git$' -d %d --exclude archive -x echo {//} ';' %s", depth, escaped)
   else
     return include_archive
         and string.format("find %s -maxdepth %d -type d -name .git -exec dirname {} \\;", escaped, archive_depth)
